@@ -1,6 +1,6 @@
 # E-Transport Automation
 ## _Objective_
-The Objective of the task is to implement the automation in the E-transport project ,So that the development of services that are we monitoring or providing get smother.
+The Objective of the task is to implement the automation in the E-transport Services,So that the development of services that are we providing get smother.
 
 ## _Features_
 
@@ -22,13 +22,13 @@ We are using number of open source tools to make our Automation works.
 
 ## _Test Case_
 
- |**SNo.** | **Test Case Description** |**Test Steps** | **Expected Result** | **Actual Result** | **Status** |
+ |**SNo.** | **Task Description** |**Test Steps** | **Expected Result** | **Actual Result** | **Status** |
 |:-----: | :-----: | :------: | :-----: | :-----: | :-----: |
-|1|Get user validation using LDAP on Devloper side| Configure LDAP on dev and Github side so that |User validation done successfully||Pass|
-|2|Push Source code data on Github Using LDAP user authentication|Login at Github using LDAP user athentication and access to the repository and store data in it.|Able to store code to github by dev.||Pass|
-|3|Get code from Github and move codeg server using Jenkins to stagin|Move data from repository to the stagging server using Jenking pipline|Code should be moved to stagging server.||Pass|
-|4|Transfer Devloped application on pre-production server Using Ansible|cc|Devloped application deployed at pre-poduction server.||Pass|
-|5|Now deploye the final application on production server|aa|Final application deployed at production.||Pass|
+|1|Get user validation using LDAP on Devloper side| Configure LDAP on dev and Github side so that |User validation done successfully|||
+|2|Push Source code data on Github Using LDAP user authentication|Login at Github using LDAP user athentication and access to the repository and store data in it.|Able to store code to github by dev.|||
+|3|Get code from Github and move code to the server using Jenkins to staging server.|Move data from repository to the stagging server using git hoke & Jenking pipline|Code should be moved to stagging server.|||
+|4|Transfer Devloped application from staging to pre-production server|Testing of Devoloped application will be done here before final deployement on production server|Application deployed at pre-poduction server.|||
+|5|Now deploye the final application on production server|After testing the application will be deployed using Ansible|Final application deployed at production.|||
 
 
 
